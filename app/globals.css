@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+  @apply flex flex-col;
+}
+
+.inputclass{
+  @apply rounded-md px-2 outline-transparent border-none text-black ;
+}
